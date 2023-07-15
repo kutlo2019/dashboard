@@ -8,7 +8,13 @@
     box-sizing: border-box;
 }
 
-h3, h4, h5, h6 {
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
@@ -83,22 +89,23 @@ h3, h4, h5, h6 {
     padding: 16px;
     border: 1px solid grey;
     background-color: var(--sidebar-color);
-    border-left: 6px solid #f0b429;
+    border-left: 13px solid #f0b429;
 
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .icons {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 16px;
 }
 
 .icons img {
     width: 20px;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+
+.announcements, .trending {
+    background-color: var(--sidebar-color);
+    padding: 21px;
+    border-radius: 10px;
 }
