@@ -60,6 +60,7 @@ span > img {
 }
 
 .header {
+    padding: 8px 21px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
@@ -75,8 +76,74 @@ span > img {
     justify-content: space-between;
 }
 
+.search-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.search-bar > input {
+    width: 500px;
+    height: 30px;
+    padding-left: 13px;
+    background-color: var(--content-bg);
+    border-radius: 5px;
+}
+
+.search-icon > img {
+    width: 30px;
+}
+
+.profile-bar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile-bar > .alarm > img {
+    width: 30px;
+}
+
+.profile-bar > .pro-pic > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bottom-bar {
+    display: flex;
+    padding: 8px 0px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-bar .profile-pic > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .action-buttons {
     gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.action-button {
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color);
+    padding: 8px 13px;
+    border-radius: 13px;
+
 }
 
 .content {
@@ -98,7 +165,6 @@ span > img {
 
 .project {
     padding: 16px;
-    border: 1px solid grey;
     background-color: var(--sidebar-color);
     border-left: 13px solid #f0b429;
 
