@@ -48,6 +48,17 @@ p, h3, h4, h5, h6 {
     gap: 20px;
 }
 
+span > img {
+    width: 20px;
+}
+
+.logo.icon, .link > .icon {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    gap: 10px;
+}
+
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
